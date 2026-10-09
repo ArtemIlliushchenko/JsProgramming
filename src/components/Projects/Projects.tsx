@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { projects, type Project } from '../data/resume';
+import { projects, type Project } from '../../data/resume';
 import styles from './Projects.module.css';
 
 type Tab = 'frontend' | 'backend';

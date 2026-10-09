@@ -1,4 +1,4 @@
-import { hardSkills, softSkills } from '../data/resume';
+import { hardSkills, softSkills } from '../../data/resume';
 import styles from './Skills.module.css';
 
 export default function Skills() {

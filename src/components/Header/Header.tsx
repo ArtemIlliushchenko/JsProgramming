@@ -22,10 +22,6 @@ export default function Header() {
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={`container ${styles.inner}`}>
-        <a href="#top" className={styles.logo} onClick={() => setOpen(false)}>
-          <span className={styles.bracket}>&lt;</span>AI<span className={styles.bracket}> /&gt;</span>
-        </a>
-
         <button
           type="button"
           className={styles.burger}

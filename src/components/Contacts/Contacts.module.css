@@ -11,6 +11,10 @@
 }
 
 .title span {
+  display: block;
+}
+
+.title .accent {
   color: var(--accent);
 }
 

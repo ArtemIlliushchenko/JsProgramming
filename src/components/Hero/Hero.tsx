@@ -1,4 +1,4 @@
-import { contacts, profile } from '../data/resume';
+import { contacts, profile } from '../../data/resume';
 import styles from './Hero.module.css';
 
 const avatar = `${import.meta.env.BASE_URL}avatar.jpg`;
@@ -19,9 +19,8 @@ export default function Hero() {
             Open to work · {profile.location}
           </p>
           <h1 className={styles.name}>
-            Artem
-            <br />
-            Illiushchenko
+            <span>Artem</span>
+            <span>Illiushchenko</span>
           </h1>
           <p className={styles.role}>
             <span className={styles.prompt}>$</span> {profile.role.toLowerCase()}

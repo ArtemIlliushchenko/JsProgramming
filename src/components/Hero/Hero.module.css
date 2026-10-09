@@ -52,6 +52,10 @@
   line-height: 0.98;
 }
 
+.name span {
+  display: block;
+}
+
 .role {
   margin-top: 20px;
   font-family: var(--font-mono);

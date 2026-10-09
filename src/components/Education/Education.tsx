@@ -1,4 +1,4 @@
-import { education, languages } from '../data/resume';
+import { education, languages } from '../../data/resume';
 import styles from './Education.module.css';
 
 export default function Education() {

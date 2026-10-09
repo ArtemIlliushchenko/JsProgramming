@@ -1,4 +1,4 @@
-import { contacts } from '../data/resume';
+import { contacts } from '../../data/resume';
 import styles from './Contacts.module.css';
 
 const items = [
@@ -16,9 +16,8 @@ export default function Contacts() {
         <div>
           <p className="eyebrow">// 04 — contacts</p>
           <h2 className={styles.title}>
-            Let&apos;s build something
-            <br />
-            <span>together.</span>
+            <span>Let&apos;s build something</span>
+            <span className={styles.accent}>together.</span>
           </h2>
           <p className={styles.text}>
             Open to junior fullstack and frontend roles, internships and team projects. Based in Kyiv, Ukraine — happy

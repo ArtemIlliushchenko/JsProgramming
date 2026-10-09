@@ -15,18 +15,8 @@
 .inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 68px;
-}
-
-.logo {
-  font-family: var(--font-mono);
-  font-weight: 500;
-  font-size: 17px;
-}
-
-.bracket {
-  color: var(--accent);
 }
 
 .nav {
